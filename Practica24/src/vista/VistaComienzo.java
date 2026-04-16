@@ -71,5 +71,17 @@ public class VistaComienzo extends JPanel{
 			cbDimensiones.addItem(num);
 		}
 	}
+
+	public JButton getbComenzar() {
+		return bComenzar;
+	}
+
+	public JButton getbSalir() {
+		return bSalir;
+	}
+
+	public JComboBox<Byte> getCbDimensiones() {
+		return cbDimensiones;
+	}
 	
 }
